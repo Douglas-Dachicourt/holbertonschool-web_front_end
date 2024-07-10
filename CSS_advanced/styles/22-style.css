@@ -121,6 +121,7 @@ a:active {
 
 [data-section-theme ="dark"] {
     background-color: var(--color-black);
+    color: var(--text-color);
 }
 
 :root {
