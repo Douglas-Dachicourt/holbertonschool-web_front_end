@@ -293,9 +293,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link::before {
     content: "";
     position: absolute;
-    overflow-x: 0;
-    overflow-y: 0;
-    color: var(--color-white);
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
 }
