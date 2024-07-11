@@ -225,8 +225,8 @@ h1, h2, h3, h4, h5, h6 {
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    overflow-y: var(--header-logo-link-top);
-    overflow-x: var(--header-logo-link-left); 
+    vertical-align: var(--header-logo-link-top) ;
+    text-align: var(--header-logo-link-left);
 }
 
 .card-services .card-title {
